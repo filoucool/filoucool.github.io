@@ -20,6 +20,20 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+  
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
 </style>
 </head>
 <body>
@@ -37,8 +51,8 @@ div.desc {
   </a>
   <div class="desc">desc</div>
 </div>
-<br>
-<div class="gallery">
+
+  <div class="gallery">
   <a target="_blank" href="portfolio/dyna1.jpg">
     <img src="portfolio/dyna1.jpg" alt="1" width="600" height="400">
   </a>
@@ -58,7 +72,7 @@ div.desc {
   </a>
   <div class="desc">desc</div>
 </div>
-  <br>
+
   <div class="gallery">
   <a target="_blank" href="portfolio/rond2.jpg">
     <img src="portfolio/rond2.jpg" alt="1" width="600" height="400">
@@ -79,7 +93,7 @@ div.desc {
   </a>
   <div class="desc">desc</div>
 </div>
-  <br>
+
   <div class="gallery">
   <a target="_blank" href="portfolio/halloween1.jpg>
     <img src="portfolio/halloween1.jpg" alt="1" width="600" height="400">
@@ -107,8 +121,8 @@ div.desc {
   </a>
   <div class="desc">desc</div>
 </div>
-  <br>
-   <div class="gallery">
+
+                   <div class="gallery">
   <a target="_blank" href="portfolio/kinovagripper10.jpg">
     <img src="portfolio/kinovagripper10.jpg" alt="1" width="600" height="400">
   </a>
@@ -128,6 +142,7 @@ div.desc {
   </a>
   <div class="desc">desc</div>
 </div>
+                   
    <div class="gallery">
   <a target="_blank" href="portfolio/kinovagripper4.png">
     <img src="portfolio/kinovagripper4.png" alt="1" width="600" height="400">
@@ -141,7 +156,8 @@ div.desc {
   </a>
   <div class="desc">desc</div>
 </div>
-  <br>
+  
+                   <div class="row">
   <div class="gallery">
   <a target="_blank" href="portfolio/pcbot9141.jpg">
     <img src="portfolio/pcbot9141.jpg" alt="1" width="600" height="400">
@@ -161,6 +177,7 @@ div.desc {
     <img src="portfolio/pcbot9143.jpg" alt="1" width="600" height="400">
   </a>
   <div class="desc">desc</div>
+</div>
 </div>
 
 </body>
