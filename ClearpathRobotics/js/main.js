@@ -36,6 +36,7 @@
             $("#loader").fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
                 $("#preloader").delay(300).fadeOut("slow");
+
             }); 
             
             // for hero content animations 
